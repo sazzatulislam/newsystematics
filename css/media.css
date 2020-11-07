@@ -1,0 +1,269 @@
+/*
+=========================================
+        lablet layout
+=========================================
+*/
+
+@media only screen and (min-width:200px) and (max-width:991px){
+
+    .search_menu
+    {
+        margin-top: -10px;
+    }
+    
+    .social_area 
+    {
+        max-width: 497px;
+        padding-top: 6px;
+    }
+    
+    
+    .inner_manu {
+        background: none;
+        min-height: auto;
+    }
+    .inner_manu::after
+    {
+        background: none;
+    }
+    .mean-container .mean-nav
+    {
+        margin-top: 0px;
+        width: 80%;
+    }
+    .inner_header
+    {
+        padding: 20px 0px;
+    }
+
+    
+    
+    
+    
+    
+    #slider_area
+    {
+        margin-top: 0;
+    }
+    
+    
+    
+    
+    .inner_hero h2
+    {
+        font-size: 4rem;
+    }
+    
+    
+    
+    
+    .about_area h2
+    {
+        font-size: 22px;
+    }
+    
+    
+    
+    
+    
+    .service_area h2
+    {
+        font-size: 22px;
+        margin-bottom: 1rem;
+    }    
+    .service_area p
+    {
+        margin-left: 10px;
+    }
+    .service_area a
+    {
+        margin-top: -.1rem;
+        margin-right: .7rem;
+    }
+    
+    
+    
+    
+    .testimonial_area h2
+    {
+        font-size: 22px;
+    }
+    
+    
+    
+    
+    
+    
+    .inner_manu ul ul , .inner_manu ul ul ul
+    {
+        position: relative;
+        left: 0;
+        top: 0;
+    }    
+    .inner_manu ul li ul li:hover ul
+    {
+        left: 0px;
+    }
+    .inner_manu ul ul
+    {
+        background: #0C1923;
+    }
+    .inner_manu ul li:hover ul ul
+    {
+        left: 0px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+=========================================
+    mobile layout
+=========================================
+*/
+
+
+
+
+@media only screen and (min-width:200px) and (max-width:480px){
+    
+    
+    .mini_menu 
+    {
+        width: 100%;
+    }
+    .mini_menu ul
+    {
+        text-align: center;
+    }
+    
+    .search_menu , .logo_area
+    {
+        width: 250px;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    
+    .social_area ul
+    {
+        text-align: center;
+    }
+    .social_area ul li{
+        margin: 0 5px;
+    }
+    
+    
+    
+    .inner_hero h2
+    {
+        font-size: 2rem;
+    }
+     .inner_hero a
+    {
+        margin-bottom: 2rem;
+    }
+    
+    
+    
+    
+    
+    #work_area
+    {
+        padding: 20px 0;
+    }
+    .child_area
+    {
+        width: 98%;
+    }
+    
+    
+    
+    
+    
+    .child_footer
+    {
+        width: 96%;
+        margin-top: 1rem
+    }    
+    .media
+    {
+        width: 105%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .left_copyright
+    {
+        float: left;
+        width: 100%;
+        font-size: 14.6px;
+        margin-bottom: 10px;
+    }
+    .right_copyright
+    {
+        float: right;
+        text-align: left;
+        width: 100%;
+        font-size: 14.6px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
